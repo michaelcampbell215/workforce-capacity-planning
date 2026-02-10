@@ -1,58 +1,80 @@
 # HR Survey Analysis - Employee Satisfaction
 
-This repository contains an Excel-based analysis of employee survey data from the **Seattle Department of Public Health**.  
-The goal of this project was to transform raw survey feedback into actionable insights to improve workplace satisfaction and guide HR strategy.
+**Case Study: People Analytics**
+
+> **Executive Summary:**  
+> The Seattle Department of Public Health required a data-driven approach to understand employee sentiment. This analysis utilized **Power Query** to normalize raw survey responses and visualize satisfaction drivers. The results revealed a critical **"Appreciation Gap"**—where employees reported high role clarity but low recognition—providing HR with a clear roadmap to improve retention through targeted recognition programs.
 
 ---
 
-## Objectives
-- Assess overall employee satisfaction based on survey responses.  
-- Identify key areas where employees feel supported and valued.  
-- Pinpoint areas of dissatisfaction to guide targeted HR strategies for improvement.  
+| **Expectations**                       | **Supervisor**                             | **Risk Factor**                               | **Culture**                                   |
+| :------------------------------------- | :----------------------------------------- | :-------------------------------------------- | :-------------------------------------------- |
+| **High Clarity**<br>Core Job Alignment | **Strong Support**<br>Key Retention Driver | **Low Appreciation**<br>Primary Sentiment Gap | **Connection Need**<br>Team-Building Priority |
 
 ---
 
-## Data Source
-- **Dataset:** Employee Survey Data  
-- **Provider:** Seattle Department of Public Health  
+## Interactive Dashboard
+
+[**View the Interactive Excel Dashboard**](https://onedrive.live.com/view.aspx?resid=8513FCA8776BF8FF%21112095&authkey=!ABn5rjqwv77cJYY)
+
+_(Note: This is a hosted Excel file. For the best experience, view in Excel Online)_
 
 ---
 
-## Tools Used
-- **Excel:** For data analysis, PivotTables, and creating visualizations.  
-- **Power Query:** For data cleaning and transformation, including handling missing values, normalizing text, and creating calculated columns.  
+## Data Engineering & Analysis
+
+### 1. Power Query Normalization
+
+**Extracted raw survey responses from the Seattle Department of Public Health.**
+Utilized Power Query to handle nulls, trailing spaces, and inconsistent survey categories, creating a clean dataset for comparative analysis.
+
+### 2. Likert Scale Distribution Analysis
+
+**Designed 100% stacked bar charts in Excel.**
+Visualized the distribution of "Strongly Agree" to "Strongly Disagree" across 12+ survey parameters. This immediately surfaced the **"Appreciation Gap"**—where employees felt competent but unseen.
+
+### 3. Sentiment Drivers
+
+**Cross-referenced job clarity scores with support scores.**
+The data proved that while operational clarity is high, the emotional connection to coworkers is a significant risk for long-term retention.
 
 ---
 
-## Process
-### Data Cleaning
-The initial dataset was cleaned using Power Query to identify and fix missing values, remove duplicates, and normalize textual data by correcting inconsistencies and trimming extra spaces.
+## Strategic Recommendations
 
-### Data Visualization & Analysis
-Key trends were visualized in Excel, primarily using a **100% stacked chart** to show the distribution of satisfaction levels across survey questions.  
-This approach provided a clear, quantitative view of strengths and areas needing improvement.  
+### Retention Strategy
 
----
+- **Deploy Recognition Programs:** Launch formal and informal programs to regularly acknowledge and celebrate employee contributions, directly addressing the feeling of being underappreciated.
+- **Structured Team-Building:** Launch initiatives targeted at peer-to-peer connection to bridge the community gap.
 
-## Key Findings
-### Positive Insights
-- Employees have a clear understanding of their job expectations.  
-- Respondents generally feel supported by their immediate supervisors and coworkers.  
+### Operational Loop
 
-### Areas for Improvement
-- Many employees do not feel their work is adequately appreciated or recognized.  
-- The data suggested a lack of strong connection and community among coworkers across different teams.  
+- **Pulse-Check Surveys:** Implement regular pulses to track sentiment recovery in real-time.
+- **Refine Onboarding:** Maintain high job-clarity scores by continuously refining the entry process.
 
 ---
 
-## Recommendations
-Based on the analysis, the following actions are recommended:
+## Technical Implementation
 
-1. **Implement Recognition Programs**  
-   Launch formal and informal programs to regularly acknowledge and celebrate employee contributions, directly addressing the feeling of being underappreciated.  
+### Data Structure
 
-2. **Foster Team-Building**  
-   Organize cross-departmental team-building activities and social events to strengthen workplace relationships and improve the sense of community.  
+The request is centered around a single master data file:
 
-3. **Conduct Follow-Up Surveys**  
-   Implement a regular survey cadence to track the impact of these new initiatives and refine employee engagement strategies over time.  
+- **`HR Survey Analysis.xlsx`**: Contains raw data, Power Query steps, and final Dashboards.
+- **Source Data**: `Employee Survey Responses` (included in repo).
+
+### Setup Instructions
+
+1.  **Requirements:** Microsoft Excel 2016 or later.
+2.  **Usage:**
+    - Open `HR Survey Analysis.xlsx`.
+    - Click **"Enable Content"**.
+    - Explore the **"Dashboard"** sheet to see the 100% Stacked Bar Charts in action.
+    - View the raw data transformation in `Data` -> `Queries & Connections` to see the cleaning steps applied to the Likert scale responses.
+
+---
+
+## Contact
+
+**Optimize your Workforce?**
+[Email](mailto:mcam215@gmail.com) | [LinkedIn](https://linkedin.com/in/michaelcampbellanalyst) | [GitHub](https://github.com/michaelcampbell215)
