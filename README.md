@@ -1,4 +1,4 @@
-# HR Survey Analysis - Employee Satisfaction
+# Workforce Capacity Planning
 
 **Case Study: People Analytics**
 
