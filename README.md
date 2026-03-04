@@ -77,4 +77,4 @@ The request is centered around a single master data file:
 ## Contact
 
 **Optimize your Workforce?**
-[Email](mailto:mcam215@gmail.com) | [LinkedIn](https://linkedin.com/in/michaelcampbellanalyst) | [GitHub](https://github.com/michaelcampbell215)
+[Email](mailto:mcam215@gmail.com) | [LinkedIn](https://www.linkedin.com/in/michaelcampbell215) | [GitHub](https://github.com/michaelcampbell215)
