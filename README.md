@@ -1,80 +1,33 @@
 # Workforce Capacity Planning
 
-**Case Study: People Analytics**
+## **Project Overview**
 
-> **Executive Summary:**  
-> The Seattle Department of Public Health required a data-driven approach to understand employee sentiment. This analysis utilized **Power Query** to normalize raw survey responses and visualize satisfaction drivers. The results revealed a critical **"Appreciation Gap"**—where employees reported high role clarity but low recognition—providing HR with a clear roadmap to improve retention through targeted recognition programs.
+**The Chaos on the Ground:** The Seattle Department of Public Health faced a looming retention crisis. Unstructured, qualitative employee surveys were sitting in spreadsheets, leaving HR blind to the specific operational frictions driving turnover.
+**The Solution:** I engineered a unified analytical "Control Tower" using Power Query and Excel. By normalizing Likert scale data and cross-referencing sentiment drivers, I quantified a critical "Appreciation Gap"—giving leadership a precise, data-backed roadmap to halt turnover through targeted operational adjustments.
 
----
+## **Data Sources**
 
-| **Expectations**                       | **Supervisor**                             | **Risk Factor**                               | **Culture**                                   |
-| :------------------------------------- | :----------------------------------------- | :-------------------------------------------- | :-------------------------------------------- |
-| **High Clarity**<br>Core Job Alignment | **Strong Support**<br>Key Retention Driver | **Low Appreciation**<br>Primary Sentiment Gap | **Connection Need**<br>Team-Building Priority |
+- **HR Employee Survey Responses:** Raw, unstructured workforce feedback data encompassing over 12 parameters of job satisfaction, supervisor support, and role clarity.
 
----
+## **Process**
 
-## Interactive Dashboard
+- **Data Engineering (Power Query):** Replaced manual data cleansing by automating the extraction and normalization of raw survey data—handling nulls, trailing spaces, and standardizing categories.
+- **Likert Distribution Architecture:** Engineered 100% stacked bar charts to mathematically visualize the distribution of sentiment across all operational parameters.
+- **Root Cause Analytics:** Cross-referenced core job alignment scores against supervisor support scores to isolate the primary and secondary risk factors for employee churn.
 
-[**View the Interactive Excel Dashboard**](https://onedrive.live.com/view.aspx?resid=8513FCA8776BF8FF%21112095&authkey=!ABn5rjqwv77cJYY)
+## **Key Findings**
 
-_(Note: This is a hosted Excel file. For the best experience, view in Excel Online)_
+- **The Appreciation Gap:** Revealed the primary bottleneck: employees reported exceptionally high clarity on _what_ their job was, but suffered from critically low feelings of appreciation for doing it.
+- **Supervisor Support Stability:** Confirmed that structural management was functioning well, identifying "Strong Supervisor Support" as the current anchor preventing mass attrition.
+- **Cultural Friction:** Identified a distinct lack of peer-to-peer connection as a secondary vulnerability threatening long-term operational stability.
 
----
+## **Recommendations (Operational Scripts)**
 
-## Data Engineering & Analysis
+- **Targeted Recognition Protocols:** Immediately pivot HR strategy to deploy highly visible, structured recognition programs that directly address the "Appreciation Gap."
+- **Team-Building Roadmap:** Launch operational initiatives explicitly localized around peer-to-peer connection and team-building to fuse fragmented departments.
+- **Refine Entry Operations:** Double down on the current onboarding processes to maintain the high "Job Clarity" scores that are currently stabilizing the workforce.
 
-### 1. Power Query Normalization
+## **Next Steps**
 
-**Extracted raw survey responses from the Seattle Department of Public Health.**
-Utilized Power Query to handle nulls, trailing spaces, and inconsistent survey categories, creating a clean dataset for comparative analysis.
-
-### 2. Likert Scale Distribution Analysis
-
-**Designed 100% stacked bar charts in Excel.**
-Visualized the distribution of "Strongly Agree" to "Strongly Disagree" across 12+ survey parameters. This immediately surfaced the **"Appreciation Gap"**—where employees felt competent but unseen.
-
-### 3. Sentiment Drivers
-
-**Cross-referenced job clarity scores with support scores.**
-The data proved that while operational clarity is high, the emotional connection to coworkers is a significant risk for long-term retention.
-
----
-
-## Strategic Recommendations
-
-### Retention Strategy
-
-- **Deploy Recognition Programs:** Launch formal and informal programs to regularly acknowledge and celebrate employee contributions, directly addressing the feeling of being underappreciated.
-- **Structured Team-Building:** Launch initiatives targeted at peer-to-peer connection to bridge the community gap.
-
-### Operational Loop
-
-- **Pulse-Check Surveys:** Implement regular pulses to track sentiment recovery in real-time.
-- **Refine Onboarding:** Maintain high job-clarity scores by continuously refining the entry process.
-
----
-
-## Technical Implementation
-
-### Data Structure
-
-The request is centered around a single master data file:
-
-- **`HR Survey Analysis.xlsx`**: Contains raw data, Power Query steps, and final Dashboards.
-- **Source Data**: `Employee Survey Responses` (included in repo).
-
-### Setup Instructions
-
-1.  **Requirements:** Microsoft Excel 2016 or later.
-2.  **Usage:**
-    - Open `HR Survey Analysis.xlsx`.
-    - Click **"Enable Content"**.
-    - Explore the **"Dashboard"** sheet to see the 100% Stacked Bar Charts in action.
-    - View the raw data transformation in `Data` -> `Queries & Connections` to see the cleaning steps applied to the Likert scale responses.
-
----
-
-## Contact
-
-**Optimize your Workforce?**
-[Email](mailto:mcam215@gmail.com) | [LinkedIn](https://www.linkedin.com/in/michaelcampbell215) | [GitHub](https://github.com/michaelcampbell215)
+- **Proactive Pulse Checks:** Implement high-frequency, automated pulse-check surveys to track sentiment recovery in real-time, moving away from reactive annual analytics.
+- **Golden Pipeline Maintenance:** Automate the survey data ingestion via `HR Survey Analysis.xlsx` to ensure leadership always has a live view of workforce capacity risk.
